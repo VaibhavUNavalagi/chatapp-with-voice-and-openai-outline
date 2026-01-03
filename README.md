@@ -95,8 +95,8 @@ Audio and text responses are returned to the frontend
 ## 🧪 Results & Demonstration
 🔹 Voice Interaction Interface
 The user can speak directly into the application and receive intelligent spoken responses in real time.
-<img width="650" height="500" alt="Image" src="https://github.com/user-attachments/assets/c7107c4e-3246-40e1-8697-77a7ce9e0ae0" />
-<img width="650" height="500" alt="image" src="https://github.com/user-attachments/assets/93db939b-e982-4738-9ae2-94c6d867ead2" />
+<img width="800" height="650" alt="Image" src="https://github.com/user-attachments/assets/c7107c4e-3246-40e1-8697-77a7ce9e0ae0" />
+<img width="800" height="650" alt="image" src="https://github.com/user-attachments/assets/93db939b-e982-4738-9ae2-94c6d867ead2" />
 
 ---
 
