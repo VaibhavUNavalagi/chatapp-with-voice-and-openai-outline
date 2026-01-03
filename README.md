@@ -75,4 +75,32 @@ docker run -p 8000:8000 generative-ai-voice-assistant
 http://localhost:8000
 ```
 ---
+
+## ⚙️ API Workflow
+
+User records voice input from the browser
+
+Audio is sent to the Flask backend
+
+IBM Watson Speech-to-Text converts audio → text
+
+Text is sent to OpenAI GPT for response generation
+
+Generated response is converted to speech using IBM Watson Text-to-Speech
+
+Audio and text responses are returned to the frontend
+
+---
+
+## 🧪 Results & Demonstration
+🔹 Voice Interaction Interface
+The user can speak directly into the application and receive intelligent spoken responses in real time.
+<img width="989" height="859" alt="Image" src="https://github.com/user-attachments/assets/c7107c4e-3246-40e1-8697-77a7ce9e0ae0" />
+
+---
+
+### 👤 Author
+
+Vaibhav U Navalagi
+
 ---
