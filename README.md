@@ -63,5 +63,16 @@ cd generative-ai-chatbot
 pip install -r requirements.txt
 ```
 ---
-▶️ Running the Application (Docker)
+##▶️ Running the Application (Docker)
+```bash
+docker build . -t generative-ai-voice-assistant
+docker run -p 8000:8000 generative-ai-voice-assistant
+```
+---
 
+### Open your browser and navigate to:
+```bash
+http://localhost:8000
+```
+---
+---
