@@ -1,1 +1,59 @@
-# coding-project-template
+# 🎙️ Generative AI Voice Assistant (OpenAI + IBM Watson)
+
+This project implements a **full-stack AI-powered voice assistant** capable of understanding spoken user input, generating intelligent responses using a large language model, and replying back with synthesized speech. The system integrates **Speech-to-Text (STT)**, **Natural Language Processing (NLP)**, and **Text-to-Speech (TTS)** to enable seamless voice-based human–computer interaction.
+
+---
+
+## 🔍 Project Overview
+
+The voice assistant accepts **audio input from users**, converts speech into text using **IBM Watson Speech-to-Text**, processes the text using **OpenAI’s GPT-based language model**, and converts the generated response back into speech using **IBM Watson Text-to-Speech**. A responsive web interface built with **HTML, CSS, and JavaScript** allows users to interact with the assistant in real time, while a **Flask backend** orchestrates API communication and response handling.
+
+This project demonstrates end-to-end integration of **AI services, backend APIs, and frontend interaction**, making it suitable for real-world conversational AI applications.
+
+---
+
+## 🚀 Features
+
+- Voice-based interaction using microphone input
+- Speech-to-Text conversion using IBM Watson STT
+- Intelligent response generation using OpenAI GPT models
+- Text-to-Speech synthesis using IBM Watson TTS
+- Full-stack architecture with Flask backend
+- Interactive web interface with real-time responses
+- Modular and extensible design
+
+---
+
+## 🛠️ Tech Stack
+
+- **Backend:** Python, Flask  
+- **Frontend:** HTML, CSS, JavaScript, Bootstrap  
+- **AI / NLP:** OpenAI GPT (Chat Completions API)  
+- **Speech Processing:** IBM Watson Speech-to-Text & Text-to-Speech  
+- **Deployment:** Docker (container)
+
+---
+
+## 📂 Project Structure
+
+```text
+generative-ai-chatbot/
+├── server.py              # Flask backend server
+├── worker.py              # STT, GPT processing, and TTS logic
+├── templates/
+│   └── index.html         # Frontend interface
+├── static/
+│   ├── css/
+│   └── js/
+├── requirements.txt       # Project dependencies
+├── Dockerfile             # Container configuration
+└── README.md              # Project documentation
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/VaibhavUNavalagi/generative-ai-chatbot.git
+cd generative-ai-chatbot
