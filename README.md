@@ -36,7 +36,7 @@ This project demonstrates end-to-end integration of **AI services, backend APIs,
 
 ## 📂 Project Structure
 
-```text
+```bash
 generative-ai-chatbot/
 ├── server.py              # Flask backend server
 ├── worker.py              # STT, GPT processing, and TTS logic
@@ -48,12 +48,20 @@ generative-ai-chatbot/
 ├── requirements.txt       # Project dependencies
 ├── Dockerfile             # Container configuration
 └── README.md              # Project documentation
-
+```
 ---
 
 ## ⚙️ Installation & Setup
 
-### 1️⃣ Clone the repository
+1️⃣ Clone the repository
 ```bash
 git clone https://github.com/VaibhavUNavalagi/generative-ai-chatbot.git
 cd generative-ai-chatbot
+```
+2️⃣ Install dependencies
+```bash
+pip install -r requirements.txt
+```
+---
+▶️ Running the Application (Docker)
+
